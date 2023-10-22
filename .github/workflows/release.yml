@@ -5,7 +5,7 @@ on:
 
 jobs:
   release:
-    runs_on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
